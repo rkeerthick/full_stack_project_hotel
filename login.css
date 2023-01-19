@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background: url("images/bg_1.jpg"); */
+    /* background: url("images/bg_1.jpg"); */
+}
+
+:root{
+    --back:#efeff7;
+    --container:#f3f3f3;
+    --orange:#ffae77;
+    --purple:#a365a6;
+    --red:#880d1f;
+    --light-green:#6eba7a;
+    --head:#274754;
+    --heading:#274754;
+    --primary-blue:#3ca2b9; 
+    /* 3d5ee1 */
+}
+.center{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-home{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+body{
+    /* background: var(--back); */
+    /* color: var(--back); */
+    /* background: url("images/bg_1.jpg"); */
+}
+.containers{
+    position: absolute;
+    display: flex;
+    width: 1400px;
+    height: 80vh;
+    background: var(--container);
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+    border-radius: 25px;
+}
+.left{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: var(--heading);
+    border-radius: 25px 25px 25px 25px;
+}
+.left img{
+    position: absolute;
+    width: 400px;
+}
+.right{
+    position: relative;
+    top:5%;
+    right: 0;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    border-radius: 0px 25px 25px 0px;
+}
+.con-center h1{
+    font-size: 50px;
+}
+.user_id{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.user_id label{
+    position: relative;
+    left:-20%;
+    font-size: 20px;
+    font-weight: 500;
+}
+.con-center input{
+    display: flex;
+    width: 50%;
+    position: relative;
+    margin-top: 25px;
+    padding: 10px;
+}
+.forgot{
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.forgot a{
+    color: var(--primary-blue);
+}
+.btn{
+    background: var(--primary-blue);
+    border: none;
+    border-radius: 14px;
+    font-size: 18px;
+    font-weight: 900;
+    color: #fff;
+    height: 50px;
+    cursor: pointer;
+}
+.btn:hover{
+    background: var(--purple);
+}
+.forgot a:hover{
+    color: var(--purple);
+}
